@@ -2,12 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { ShareModule } from './shared/share.module';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { PrimeNgModule } from './prime-ng/prime-ng.module';
+import { ShareModule } from './shared/share.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +17,6 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
     AppRoutingModule,
     ShareModule,
 
-    PrimeNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
