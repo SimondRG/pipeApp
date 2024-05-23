@@ -33,7 +33,7 @@ export class OrderComponent {
     },
     {
       name: 'Linterna Verde',
-      canFly: false,
+      canFly: true,
       color: Color.green
     }
   ]
